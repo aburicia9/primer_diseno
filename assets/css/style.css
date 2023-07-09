@@ -68,10 +68,11 @@ h1 {
     color:  hsl(228, 12%, 48%);
     font-size: 18px;
     letter-spacing: 1px;
+    line-height: 25px;
 }
 
 .contenedor{
-    margin-top: -10px;
+    margin-top: -30px;
     
 }
 
@@ -81,6 +82,7 @@ h1 {
     display: inline-block;  /* Alinea el elemento como un elemento en línea */
     margin-right: 20px;
     margin-left: 20px;
+    
     
     /* margin-left: 20px; */
     font-size: 30px;
@@ -92,6 +94,7 @@ h1 {
     color:  hsl(228, 12%, 48%);
     display: inline-block;
     text-align: right;
+    
     /* margin-bottom: 100px */
      /* Alinea el elemento como un elemento en línea */
     /* float:right; */
@@ -103,8 +106,9 @@ h1 {
 input{
     background-color: hsl(156, 85%, 24%);
     color: white;
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 255px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: -10px;
+    
 }
