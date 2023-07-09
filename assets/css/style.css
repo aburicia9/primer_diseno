@@ -77,7 +77,7 @@ h1 {
 }
 
 .precio{
-        font-weight: bold;
+    font-weight: bold;
     color: hsl(158, 85%, 24%);
     display: inline-block;  /* Alinea el elemento como un elemento en línea */
     margin-right: 20px;
@@ -85,7 +85,7 @@ h1 {
     
     
     /* margin-left: 20px; */
-    font-size: 30px;
+    font-size: 40px;
     
 }
 
@@ -94,6 +94,7 @@ h1 {
     color:  hsl(228, 12%, 48%);
     display: inline-block;
     text-align: right;
+    
     
     /* margin-bottom: 100px */
      /* Alinea el elemento como un elemento en línea */
