@@ -46,14 +46,14 @@ body{
 
 
 .cabecera h3{
-    margin-top: -40px;
+    margin-top: 0px;
     margin-left: -130px;
     margin-bottom: -1000px;
 }
 
 h1 {
     margin-left: 17px;
-    margin-top: 0px; /* Ajusta el margen superior negativo según tus necesidades */
+    margin-top: 40px; /* Ajusta el margen superior negativo según tus necesidades */
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -67,26 +67,36 @@ h1 {
     margin-right: 30px;
     color:  hsl(228, 12%, 48%);
     font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contenedor{
+    margin-top: -10px;
+    
 }
 
 .precio{
         font-weight: bold;
     color: hsl(158, 85%, 24%);
-    display: inline; /* Alinea el elemento como un elemento en línea */
-    margin-right: -80px;
-    float:left;
+    display: inline-block;  /* Alinea el elemento como un elemento en línea */
+    margin-right: 20px;
     margin-left: 20px;
+    
+    /* margin-left: 20px; */
     font-size: 30px;
     
 }
 
 .tachado{
     text-decoration: line-through;
-    color: red;
-    display: inline; /* Alinea el elemento como un elemento en línea */
+    color:  hsl(228, 12%, 48%);
+    display: inline-block;
+    text-align: right;
+    /* margin-bottom: 100px */
+     /* Alinea el elemento como un elemento en línea */
     /* float:right; */
-    margin-left: -20px;
-    text-align:left;
+    /* margin-left: -20px; */
+    /* text-align:left; */
     ;
 }
 
